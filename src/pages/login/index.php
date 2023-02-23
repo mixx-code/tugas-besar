@@ -15,7 +15,11 @@
 <body>
     <div class="container">
         <div class="kotak1">
-
+            <div class="switch">
+                
+                <a href="../login" class="link-login">Login</a>
+                <a href="../registrasi" class="link-registrasi">Registrasi</a>
+            </div>
         </div>
         <div class="kotak2">
             <div class="title">Login Page</div>
@@ -32,7 +36,6 @@
                 </div>
                 <div class="btn">
                     <button type="submit">Login</button>
-                    <a href="#"><i class="fa-solid fa-arrow-left"></i> Registrasi</a>
                 </div>
             </form>
         </div>
