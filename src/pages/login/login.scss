@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    .kotak1{
+        width: 500px;
+        height: 100vh;
+        background-color: red;
+    }
+
+    .kotak2{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .title{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        form{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            overflow: hidden;
+            input{
+                margin-bottom: 20px;
+                width: 100%;
+                padding: 10px;
+                padding-left: 30px;
+                border: none;
+                border-bottom: 1px solid gray;
+                outline: none;
+                color: gray;
+                letter-spacing: 1px;
+            }
+            .username{
+                position: relative;
+
+                i{
+                    position: absolute;
+                    left: 8px;
+                    top: 9px;
+                    color: gray;
+                }
+            }
+            .password{
+                position: relative;
+
+                i{
+                    position: absolute;
+                    left: 8px;
+                    top: 9px;
+                    color: gray;
+                }
+            }
+            .btn{
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: row-reverse;
+                align-items: center;
+                button{
+                    color: white;
+                    background-color: green;
+                    width: 150px;
+                    border: none;
+                    padding: 15px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

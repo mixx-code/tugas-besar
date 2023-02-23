@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+.container .kotak1 {
+  width: 500px;
+  height: 100vh;
+  background-color: red;
+}
+.container .kotak2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .kotak2 .title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.container .kotak2 form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  overflow: hidden;
+}
+.container .kotak2 form input {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: gray;
+  letter-spacing: 1px;
+}
+.container .kotak2 form .username {
+  position: relative;
+}
+.container .kotak2 form .username i {
+  position: absolute;
+  left: 8px;
+  top: 9px;
+  color: gray;
+}
+.container .kotak2 form .password {
+  position: relative;
+}
+.container .kotak2 form .password i {
+  position: absolute;
+  left: 8px;
+  top: 9px;
+  color: gray;
+}
+.container .kotak2 form .btn {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.container .kotak2 form .btn button {
+  color: white;
+  background-color: green;
+  width: 150px;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .kotak2 form .btn a {
+  text-decoration: none;
+}/*# sourceMappingURL=login.css.map */
