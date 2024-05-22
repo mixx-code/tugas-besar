@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  background-color: green;
+  width: 100%;
+  padding: 20px;
+}
+.container nav .drop-down {
+  position: relative;
+  display: inline-block;
+}
+.container nav .drop-down .drop-down-content {
+  display: none;
+  flex-direction: column;
+  text-align: end;
+  bottom: -115px;
+  left: -130px;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: ease-in 2s;
+}
+.container nav .drop-down .drop-down-content a {
+  padding: 10px;
+  text-decoration: none;
+}
+.container nav .drop-down .drop-btn {
+  color: white;
+  margin-right: 30px;
+  padding: 10px;
+}
+.container nav .drop-down .x-btn {
+  display: none;
+  color: white;
+  margin-right: 30px;
+  padding: 10px;
+}
+.container nav :hover .drop-down-content {
+  display: flex;
+}
+.container nav .drop-down:hover .x-btn {
+  display: block;
+}
+.container nav .drop-down:hover .drop-btn {
+  display: none;
+  width: 0;
+}/*# sourceMappingURL=main-layout.css.map */

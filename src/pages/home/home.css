@@ -1,0 +1,12 @@
+.container_home{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.component{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
