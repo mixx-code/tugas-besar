@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.container .kotak1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  background-color: #8EC3B0;
+}
+.container .kotak1 a {
+  text-decoration: none;
+}
+.container .kotak1 .wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+}
+.container .kotak1 .wrapper .page-login {
+  padding: 20px;
+  width: 100px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container .kotak1 .wrapper .page-registrasi {
+  padding: 20px;
+  width: 100px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container .kotak2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #CDFCF6;
+  justify-content: center;
+  align-items: center;
+}
+.container .kotak2 .title {
+  font-weight: bold;
+  font-size: 25px;
+  color: #0eb87f;
+}
+.container .kotak2 form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container .kotak2 form .input {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.container .kotak2 form .input input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+  outline: none;
+  padding: 10px;
+  padding-left: 30px;
+  color: gray;
+  font-size: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+.container .kotak2 form .input :focus {
+  border-bottom: 1.5px solid rgb(20, 111, 216);
+}
+.container .kotak2 form .input i {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  color: rgba(167, 165, 165, 0.658);
+}
+.container .kotak2 form .button {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .kotak2 form .button .btn-login {
+  background-color: #02e79b;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.container .kotak2 form .button :hover {
+  background-color: #23b181;
+}/*# sourceMappingURL=style.css.map */

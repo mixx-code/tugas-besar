@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    .kotak1{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 400px;
+        background-color: #8EC3B0;
+        a{
+            text-decoration: none;
+        }
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            right: 0px;
+            .page-login{
+                // background-color: #CDFCF6;
+                padding: 20px;
+                width: 100px;
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+            .page-registrasi{
+                // background-color: #CDFCF6;
+                padding: 20px;
+                width: 100px;
+                 border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+
+        }
+    }
+
+    .kotak2{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-color: #CDFCF6;
+        justify-content: center;
+        align-items: center;
+        .title{
+            font-weight: bold;
+            font-size: 25px;
+            color:#0eb87f;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            box-sizing: border-box;
+            overflow: hidden;
+            
+            .input{
+                position: relative;
+                width: 100%;
+                box-sizing: border-box;
+                input{
+                    border: none;
+                    background-color: rgba($color: #ffffff, $alpha: 0.5);
+                    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+                    outline: none;
+                    padding: 10px;
+                    padding-left: 30px;
+                    color: gray;
+                    font-size: 10px;
+                    margin-top: 20px;
+                    width: 100%;
+                }:focus{
+                    border-bottom: 1.5px solid rgb(20, 111, 216);
+                }
+                i{
+                    position: absolute;
+                    bottom: 8px;
+                    left: 10px;
+                    color: rgba(167, 165, 165, 0.658);
+                }
+            }
+
+            .button{
+                margin-top: 15px;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                .btn-login{
+                    background-color: #02e79b;
+                    border: none;
+                    width: 100px;
+                    height: 30px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: white;
+                }:hover{
+                    background-color: #23b181;
+                }
+            }
+        }
+    }
+}
